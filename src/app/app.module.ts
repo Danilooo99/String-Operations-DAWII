@@ -1,16 +1,32 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { Textarea1Component } from './components/textarea1/textarea1.component';
+import { Textarea2Component } from './components/textarea2/textarea2.component';
+import { ButtonsOperationsComponent } from './components/buttons-operations/buttons-operations.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { IntroductionComponent } from './components/introduction/introduction.component';
+import { HistoricalComponent } from './components/historical/historical.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Textarea1Component,
+    Textarea2Component,
+    ButtonsOperationsComponent,
+    FooterComponent,
+    NavbarComponent,
+    IntroductionComponent,
+    HistoricalComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

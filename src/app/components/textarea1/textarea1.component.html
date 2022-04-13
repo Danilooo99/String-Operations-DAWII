@@ -1,0 +1,9 @@
+<app-buttons-operations [dataReceive] = "dataSend"></app-buttons-operations>
+
+<div class="w-full flex items-center justify-around mt-5 XL:flex-col ">
+    <div class="w-3/6 flex items-center justify-center flex-col XL:mt-8">
+        <h4 class="font-mono text-lg dark:text-white">Input Area</h4>
+        <textarea class="border-2 border-black w-5/6 h-80 bg-slate-100 L:w-full rounded" [(ngModel)]="dataSend">{{dataSend}}</textarea>
+    </div>
+    <app-textarea2 class="w-3/6 flex items-center justify-center flex-col XL:mt-8"></app-textarea2>
+</div>

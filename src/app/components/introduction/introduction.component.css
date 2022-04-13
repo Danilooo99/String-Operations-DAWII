@@ -1,0 +1,11 @@
+#text3D {
+    font: bold 80px/1 arial;
+    color: #1855b6;
+    text-shadow: 0 6px 0 #395ac6;
+}
+
+@media screen and (max-width: 650px) {
+    #text3D {
+        font: bold 58px/1 arial;
+    }  
+}

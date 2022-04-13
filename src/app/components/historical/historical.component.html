@@ -1,0 +1,14 @@
+<div class="mt-8 5/6 flex items-center justify-center flex-col">
+    <h2 class="font-mono mb-6 text-xl dark:text-white">Historical Operations</h2>
+    <ul class="w-48 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-white-700 dark:border-white-600 dark:text-black">
+        <li *ngFor="let operation of operations; index as i" class="text-center w-full px-4 py-2 bg-white border-b border-gray-200 rounded-t-lg dark:border-white-600">
+            <span *ngIf="operation !== 'No Operations'">
+                Operation {{ i+1 }}:
+            </span>
+            {{ operation }}
+        </li>
+    </ul>
+    <button (click)="clearHistorical()" class="text-center mt-5 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full">
+        Clear Historical
+    </button>
+</div>
