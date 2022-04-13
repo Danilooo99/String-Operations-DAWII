@@ -1,27 +1,49 @@
-# ServicesDAWII
+# DAW II - String Operations (Services)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+### Autor del proyecto
 
-## Development server
+Danilo Rivero Pérez - Grado en Ingeniería Informática - DAW II.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Descripción de la aplicación
 
-## Code scaffolding
+Se ha creado una aplicación que gestiona el paso de información entre componentes padres e hijos haciendo uso de servicios. Con esta app, se pueden realizar diferentes operaciones con cadenas de texto, entre ellas, invertir una cadena de texto, encriptar una cadena con el algoritmo SHA256, contar el número de vocales de una cadena, etc. Para probar la app, se debe escribir lo que se quiera en el textArea llamado ```Input Area``` y hacer clic en el botón correspondiente a la operación que se quiera realizar con la cadena escrita. Tras esto, en el textArea denominado ```Output Area``` se mostrará la cadena resultante con la operación realizada. También, se puede ver el histórico de operaciones que se han ido realizando, así como limpiar el propio historial de operaciones por medio de un botón. Para la realización de este proyecto se ha usado [Angular](https://angular.io/) y para maquetar el diseño del proyecto, se ha usado [TailwindCSS](https://tailwindcss.com/). Además, se ha hecho uso de una librería que contiene varios algoritmos criptográficos como es [CryptoJS](https://cryptojs.gitbook.io/docs/).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Las funcionalidades de la aplicación son:
 
-## Build
+- Permite convertir una cadena a ```mayúscula```.
+- Permite convertir una cadena a ```minúscula```.
+- Permite ```invertir``` una cadena.
+- Permite ```resetear``` los datos introducidos.
+- Permite encriptar una cadena de texto con el algoritmo ```AES```.
+- Permite encriptar una cadena de texto con el algoritmo ```Triple-DES```.
+- Permite encriptar una cadena de texto con el algoritmo ```MD5```.
+- Permite encriptar una cadena de texto con el algoritmo ```SHA256```.
+- Permite contar las ```vocales``` de una cadena de texto.
+- Permite contar las ```consonantes``` de una cadena de texto.
+- Permite contar los ```caracteres``` de una cadena de texto.
+- Permite contar los ```caracteres especiales``` de una cadena de texto.
+- Permite ver el ```histórico``` de operaciones realizadas.
+- Permite limpiar el ```histórico``` de operaciones realizadas.
+- Permite mostrar la página SPA en modo ```oscuro``` y en modo ```claro```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+### Ejecutar el proyecto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para ejecutar este proyecto en ***local*** se deben seguir los siguientes pasos:
 
-## Running end-to-end tests
+  1. Ejecutar en la terminal desde la ruta del proyecto, el comando: ```mpm install``` para instalar todas las dependencias del proyecto en Angular.
+  2. Ejecutar desde la terminal, el servidor local con el comando: ```ng serve --open```
+  3. Se abrirá en un navegador el proyecto realizado a través de la URL ```localhost:nºpuerto```
+  
+### Hosting de alojamiento del proyecto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Podrá ver el proyecto de la calculadora realizado [aquí](https://string-operations-dawii.netlify.app/).
 
-## Further help
+## Tecnologías utilizadas en el Proyecto
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+| Tecnologías                                                           | Descripción                               |
+| --------------------------------------------------------------------- | ----------------------------------------- |
+| **[Angular](https://angular.io/)**                                    | Framework de JavaScript                   |
+| **[TypeScript](https://www.typescriptlang.org/)**                     | Superset de Javascript con tipado         |
+| **[TailwindCSS](https://tailwindcss.com/)**                           | Librería de diseño                        |
+| **[CryptoJS](https://cryptojs.gitbook.io/docs/)**                     | Librería de algoritmos criptográficos     |
