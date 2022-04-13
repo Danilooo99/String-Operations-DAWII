@@ -37,7 +37,7 @@ Para ejecutar este proyecto en ***local*** se deben seguir los siguientes pasos:
   
 ### Hosting de alojamiento del proyecto
 
-Podrá ver el proyecto de la calculadora realizado [aquí](https://string-operations-dawii.netlify.app/).
+Podrá ver el proyecto de las operaciones realizado [aquí](https://string-operations-dawii.netlify.app/).
 
 ## Tecnologías utilizadas en el Proyecto
 
